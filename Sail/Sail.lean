@@ -31,7 +31,7 @@ def ExceptM.run (m : ExceptM α α) : α :=
 
 namespace Sail.ConcurrencyInterfaceV1
 
-open PreSail
+open Sail.ConcurrencyInterfaceV1.PreSail
 
 variable {Register : Type} {RegisterType : Register → Type} [DecidableEq Register] [Hashable Register]
 
